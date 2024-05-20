@@ -1,0 +1,44 @@
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(BG_4.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    text-align: center;
+    
+}
+
+.clock_body {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px;
+}
+
+.clock_display {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
+.clock_numbers {
+    font-size: 50px;
+}
+
+.color_button {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
